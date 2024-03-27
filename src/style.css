@@ -1,0 +1,303 @@
+.porto .container {
+  margin: 0 auto;
+  max-width: 1423px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.porto .container .alldiv {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.porto .container .alldiv .logo {
+  width: 89px;
+  height: 35px;
+}
+.porto .container .alldiv .logo img {
+  width: 100%;
+  height: 100%;
+}
+.porto .container .alldiv .menu {
+  display: flex;
+}
+.porto .container .alldiv .menu li {
+  list-style: none;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: -0.25px;
+  padding: 15px 15px 15px 15px;
+  text-transform: uppercase;
+}
+.porto .container .alldiv .menu li a {
+  text-decoration: none;
+  color: #000000;
+}
+.porto .container .icon {
+  display: flex;
+  padding-right: 70px;
+}
+.porto .container .icon i {
+  padding-right: 10px;
+  font-size: 22px;
+}
+.porto .container .icon .shopbag {
+  position: relative;
+}
+.porto .container .icon .shopbag span {
+  position: absolute;
+  top: -4px;
+  right: 0;
+  border-radius: 50%;
+  color: #fff;
+  background: #ff5b5b;
+  font-weight: 600;
+  width: 16px;
+  height: 16px;
+  font-size: 10px;
+  line-height: 15px;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+}
+
+.fashion {
+  background-image: url("https://portotheme.com/html/porto_ecommerce/assets/images/demoes/demo3/slider/slide1.jpg");
+  height: 395px;
+  background-size: cover;
+}
+.fashion .container {
+  margin: 0 auto;
+}
+.fashion .container .txt {
+  margin-left: 80px;
+}
+.fashion .container .txt h2 {
+  color: #777;
+  font-size: 2.5em;
+  font-weight: 400;
+  letter-spacing: -0.008em;
+  font-family: "Segoe Script", "Savoye LET";
+  line-height: 1.334;
+  margin-bottom: 0.9rem;
+}
+.fashion .container .txt h3 {
+  font-size: 2.5em;
+  letter-spacing: 0.185em;
+  text-transform: uppercase;
+}
+.fashion .container .txt h4 {
+  line-height: 1;
+  font-family: Poppins, sans-serif;
+  color: #222529;
+  font-size: 5.625em;
+  margin-bottom: 2.4rem;
+  margin-top: 0;
+}
+.fashion .container .txt h5 {
+  font-size: 1.125em;
+  line-height: 1;
+  text-transform: uppercase;
+  padding-top: 0.7rem;
+  margin-bottom: 3.3rem;
+  position: relative;
+}
+.fashion .container .txt a {
+  text-decoration: none;
+  padding: 1.1em 2.75em 1.125em;
+  border-color: #222529;
+  background-color: #222529;
+  color: #fff;
+  font-size: 1.125em;
+  font-weight: 700;
+  font-family: Poppins, sans-serif;
+  line-height: 1.429;
+  text-transform: uppercase;
+  border: 1px solid transparent;
+}
+
+.shop .container {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+.shop .container h2 {
+  text-align: center;
+  color: #302e2a;
+  text-transform: uppercase;
+  font-size: 1.1rem;
+  padding-top: 0.5rem;
+  line-height: 1.5;
+  font-weight: 700;
+  font-family: Poppins, sans-serif;
+  margin-bottom: 2.4rem;
+}
+.shop .container .cards {
+  display: flex;
+}
+.shop .container .cards .card {
+  margin-right: 20px;
+}
+.shop .container .cards .card a {
+  text-decoration: none;
+  color: #777;
+  font-size: 10px;
+  font-weight: 400;
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.7;
+  text-transform: uppercase;
+}
+.shop .container .cards .card .img {
+  width: 200px;
+  height: 200px;
+}
+.shop .container .cards .card .img img {
+  width: 100%;
+  height: 100%;
+}
+.shop .container .cards .card p {
+  text-align: center;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 1.35;
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: -0.005em;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+}
+.shop .container .cards .card h5 {
+  font-size: 18px;
+  text-align: center;
+  line-height: 1.8;
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: normal;
+  margin-top: -10px;
+  text-transform: uppercase;
+  opacity: 0.7;
+  color: #000000;
+}
+.shop .container .cards .card h5 del {
+  color: rgb(155, 152, 152);
+}
+
+footer .container {
+  margin: 0 auto;
+  max-width: 1300px;
+}
+footer .container .subscribe {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid #e7e7e7;
+  padding: 40px 0;
+}
+footer .container .subscribe .left {
+  display: flex;
+  align-items: center;
+}
+footer .container .subscribe .left .content {
+  margin-right: 4.8rem;
+}
+footer .container .subscribe .left .content h3 {
+  letter-spacing: 0.075em;
+  font-size: 14px;
+  padding-bottom: 1px;
+  margin-bottom: 0.4rem;
+  text-transform: uppercase;
+  line-height: 1.429;
+  color: #222529;
+  font-weight: 700;
+  font-family: Poppins, sans-serif;
+}
+footer .container .subscribe .left .content p {
+  font-size: 13px;
+  font-family: "Open Sans", sans-serif;
+  line-height: 20px;
+  letter-spacing: 0;
+  color: #777777;
+}
+footer .container .subscribe .left form {
+  display: flex;
+  width: 384px;
+}
+footer .container .subscribe .left form input {
+  padding: 16px 12px 14px;
+  width: 100%;
+  height: auto;
+  color: #777;
+  background-color: #f4f4f4;
+  font-family: "Open Sans", sans-serif;
+  border: none;
+}
+footer .container .subscribe .left form button {
+  padding: 0.7em 1.244em 0.6em;
+  border-color: #222529;
+  background-color: #222529;
+  color: #fff;
+  border: none;
+}
+footer .container .subscribe .icon i {
+  padding-right: 20px;
+  font-size: 20px;
+}
+footer .container .widget {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #e7e7e7;
+  padding: 40px 0;
+}
+footer .container .widget .widget-title h3 {
+  font-family: Poppins, sans-serif;
+  line-height: 1.4;
+  margin: 0 0 1.5rem;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #313131;
+  list-style: none;
+}
+footer .container .widget .widget-title .link {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+footer .container .widget .widget-title .link .content {
+  padding-right: 40px;
+  list-style: none;
+}
+footer .container .widget .widget-title .link .content h3,
+footer .container .widget .widget-title .link .content h4 {
+  font-weight: 400;
+  font-size: 15px;
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 0.005em;
+  color: #000;
+  list-style: none;
+}
+footer .container .widget .widget-title .link .content a {
+  font-size: 15px;
+  color: #90969a;
+  white-space: nowrap;
+  text-decoration: none;
+  list-style: none;
+}
+footer .container .widget .widget-title .link .content li a {
+  font-size: 15px;
+  color: #90969a;
+  list-style: none;
+  list-style: none;
+}
+footer .payment {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #e7e7e7;
+  padding: 40px 0;
+}
+footer .payment span {
+  font-size: 13px;
+  color: #90969a;
+}
+footer .payment img {
+  width: 56px;
+  height: 32px;
+}/*# sourceMappingURL=style.css.map */
